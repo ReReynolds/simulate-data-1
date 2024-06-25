@@ -8,7 +8,7 @@
 x <- rnorm(n = 100)
 
 # Simulate response variable with some noise
-y <- 0.5 * x + rnorm(n = 100, sd = 0.2)
+y <- 3 * x + rnorm(n = 100, sd = 0.2)
 
 #Plot the data 
 plot(x = x, y = y)
